@@ -1,0 +1,42 @@
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #645CFF;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    color: white;
+}
+
+.nav-container figure i {
+    font-size: 30px;
+}
+
+.nav-container span {
+    font-size: x-large;
+}
+
+.nav-container figure {
+    position: relative;
+}
+
+.no-of-items {
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    background-color: #A29DFF;
+    border-radius: 50%;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
